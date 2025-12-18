@@ -1,4 +1,4 @@
-Threat Intelligence Feed Aggregator (Mock Mode)
+Threat Intelligence Feed Aggregator (Mock Setup)
 Overview
 
 This project is a small Python-based Threat Intelligence Feed Aggregator created for the CYB 333 – Security Automation course. The goal of the project is to demonstrate how threat intelligence data can be automatically collected, cleaned up, and exported into a format that can be easily reviewed or used by other security tools.
