@@ -1,0 +1,30 @@
+{
+  "results": [
+    {
+      "id": "mock-pulse-001",
+      "name": "Mock Pulse - Phishing Campaign",
+      "created": "2025-12-01T12:00:00Z",
+      "reference": "Internal training feed (mock)",
+      "author_name": "Mock Author",
+      "indicators": [
+        { "indicator": "185.199.108.153", "type": "IPv4" },
+        { "indicator": "login-secure-example.com", "type": "domain" },
+        { "indicator": "http://login-secure-example.com/reset", "type": "URL" },
+        { "indicator": "44d88612fea8a8f36de82e1278abb02f", "type": "FileHash-MD5" }
+      ]
+    },
+    {
+      "id": "mock-pulse-002",
+      "name": "Mock Pulse - Malware Infrastructure",
+      "created": "2025-12-05T18:30:00Z",
+      "reference": "Internal training feed (mock)",
+      "author_name": "Mock Author",
+      "indicators": [
+        { "indicator": "45.133.1.44", "type": "IPv4" },
+        { "indicator": "update-cdn-example.net", "type": "hostname" },
+        { "indicator": "https://update-cdn-example.net/a.bin", "type": "URL" },
+        { "indicator": "  login-secure-example.com  ", "type": "domain" }
+      ]
+    }
+  ]
+}
